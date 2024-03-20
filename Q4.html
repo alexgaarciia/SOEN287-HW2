@@ -6,7 +6,7 @@
     <body>
         <h1>Order Books Online</h1>
         <fieldset>
-            <form action="">
+            <form id="orderForm">
                 <table>
                     <tr>
                         <th>Book</th>
@@ -16,27 +16,31 @@
                     <tr>
                         <td>Basic Web Programming</td>
                         <td>
-                            <input type="number" name="book1" id="book1">
+                            <input type="text" id="quantity1" pattern="\\d">
                         </td>
                         <td>$19.99</td>
                     </tr>
                     <tr>
                         <td>Intro to PHP</td>
                         <td>
-                            <input type="number" name="book2" id="book2">
+                            <input type="text" id="quantity2" pattern="\\d">
                         </td>
                         <td>$86.00</td>
                     </tr>
                     <tr>
                         <td>Advanced JQuery</td>
                         <td>
-                            <input type="number" name="book3" id="book3">
+                            <input type="text" id="quantity3" pattern="\\d">
                         </td>
                         <td>$55.00</td>
                     </tr>
                 </table> <br>
-                <button onclick="">Calculate the order</button>
+
+                <button onclick="placeOrder()">Calculate the order</button>
+
+                <script src="Q4.js"></script>
             </form>
         </fieldset>
+        <div id="orderSummary"></div>
     </body>
 </html>
