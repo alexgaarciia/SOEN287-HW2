@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <a href="home.html">
+                <img src="logo.jpg" alt="Logo" height="70">
+            </a>
+            <h3>Paws & Hearts Adoption Haven</h3>
+        </header>
+
+        <nav>
+            <a href="home.html">Home page</a><br>
+            <a href="available_pets.html">Browse Available Pets</a><br>
+            <a href="find.html">Find a dog/cat</a><br>
+            <a href="dog_care.html">Dog Care</a><br>
+            <a href="cat_care.html">Cat Care</a><br>
+            <a href="give_away.html">Have a pet to give away</a><br>  
+            <a href="contact.html">Contact Us</a>     
+        </nav>
+
+        <main>
+            <fieldset>
+                <legend>Find your soulmate!</legend>
+                <form action="" method="post">
+                    <label for="petType">Dog or Cat:</label>
+                    <select name="petType" id="petType">
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                    </select> <br><br>                    
+
+                    <label for="breed">Breed:</label>
+                    <select id="breed" name="breed">
+                      <option value="doesNotMatter">Doesn't Matter</option>
+                      <!-- Dog Breeds -->
+                      <option value="labrador">Labrador Retriever</option>
+                      <option value="germanShepherd">German Shepherd</option>
+                      <option value="goldenRetriever">Golden Retriever</option>
+                      <option value="frenchBulldog">French Bulldog</option>
+                      <option value="bulldog">Bulldog</option>
+                      <option value="beagle">Beagle</option>
+                      <option value="poodle">Poodle</option>
+                      <option value="rottweiler">Rottweiler</option>
+                      <option value="germanShorthairedPointer">German Shorthaired Pointer</option>
+                      <option value="siberianHusky">Siberian Husky</option>
+                      <!-- Cat Breeds -->
+                      <option value="persian">Persian</option>
+                      <option value="maineCoon">Maine Coon</option>
+                      <option value="ragdoll">Ragdoll</option>
+                      <option value="siamese">Siamese</option>
+                      <option value="bengal">Bengal</option>
+                      <option value="sphynx">Sphynx</option>
+                      <option value="britishShorthair">British Shorthair</option>
+                      <option value="scottishFold">Scottish Fold</option>
+                      <option value="burmese">Burmese</option>
+                      <option value="americanShorthair">American Shorthair</option>
+                    </select> <br><br>
+
+                    <label for="age">Preferred Age:</label>
+                    <select id="age" name="age">
+                      <option value="doesNotMatter">Doesn't Matter</option>
+                      <option value="puppyKitten">Puppy/Kitten</option>
+                      <option value="young">Young</option>
+                      <option value="adult">Adult</option>
+                      <option value="senior">Senior</option>
+                    </select> <br><br>
+
+                    <label for="gender">Preferred Gender:</label>
+                    <select id="gender" name="gender">
+                      <option value="doesNotMatter">Doesn't Matter</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                    </select> <br>            
+
+                    <p>Compatibility:</p>
+                    <input type="checkbox" id="otherDogs" name="otherDogs">
+                    <label for="otherDogs">Gets along with other dogs</label>
+                    <br>
+                  
+                    <input type="checkbox" id="otherCats" name="otherCats">
+                    <label for="otherCats">Gets along with other cats</label>
+                    <br>
+                  
+                    <input type="checkbox" id="smallChildren" name="smallChildren">
+                    <label for="smallChildren">Good with small children</label> <br><br>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Rest">
+
+                </form>
+            </fieldset>
+        </main>
+
+        <footer>
+            © 2024 Paws & Hearts Adoption Haven. All rights reserved. <br> Privacy/Disclaimer Statement
+            <br>
+            <p style="font-size: 0.8em; margin-top: 10px;">
+                We value your trust and privacy. Your personal information is kept confidential and is never sold or misused. While we strive for accuracy, Paws & Hearts Adoption Haven cannot be held responsible for any incorrect information posted by pet owners.
+            </p>
+        </footer>    
+    </body>
+</html>
