@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 3</title>
+    </head>
+    <body>
+        <h1>JavaScript functions</h1>
+        <h2>addNumbers</h2>
+        <p id="example1"></p>
+        <p id="example2"></p>
+
+        <h2>findMaxNumber</h2>
+        <p id="example3"></p>
+        <p id="example4"></p>
+
+        <h2>addOnlyNumbers</h2>
+        <p id="example5"></p>
+        <p id="example6"></p>
+
+        <h2>getDigits</h2>
+        <p id="example7"></p>
+        <p id="example8"></p>
+
+        <h2>reverseString</h2>
+        <p id="example9"></p>
+        <p id="example10"></p>
+
+        <h2>getCurrentDate</h2>
+        <p id="example11"></p>
+
+        
+        <script src="Q3.js"></script>
+        <script>
+            // Function A)
+            document.getElementById("example1").innerHTML = addNumbers([1,4,5,6,4]);
+            document.getElementById("example2").innerHTML = addNumbers([20,10]);
+
+            // Function B)
+            document.getElementById("example3").innerHTML = findMaxNumber(1,4,5,6,4);
+            document.getElementById("example4").innerHTML = findMaxNumber(20,10);
+            
+            // Function C)
+            document.getElementById("example5").innerHTML = addOnlyNumbers([4, 5, "3.0birds", true, "birds2"]);
+            document.getElementById("example6").innerHTML = addOnlyNumbers(["hello", "i", "3am", "alex45"]);
+
+            // Function D)
+            document.getElementById("example7").innerHTML = getDigits("3.0birds");
+            document.getElementById("example8").innerHTML = getDigits("alex45");
+
+            // Function E)
+            document.getElementById("example9").innerHTML = reverseString("hello, i am alex");
+            document.getElementById("example10").innerHTML = reverseString("i am 20 years old");
+
+            // Function F)
+            document.getElementById("example11").innerHTML = getCurrentDate();
+        </script>
+    </body>
+</html>
