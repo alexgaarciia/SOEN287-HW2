@@ -15,9 +15,22 @@
         <p id="method3"></p>
 
         <script>
+            // Define the variable "arryStr"
             const arryStr = ["Banana", "Orange", "Apple", "Mango"];
+
+            // Part A)
             document.getElementById("method1").innerHTML = arryStr.toString();
 
+            // Part B)
+            document.getElementById("method2").innerHTML = arryStr.join("&");
+
+            // Part C)
+            let text = "";
+            arryStr.forEach(myFunction);
+            document.getElementById("method3").innerHTML = text;
+            function myFunction(item, index){
+                text += index + ":" + item + "<br>";                
+            }
         </script>        
     </body>
 </html>
