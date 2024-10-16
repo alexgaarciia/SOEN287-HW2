@@ -1,5 +1,4 @@
 # SOEN287-HW2
-## Overview
 This assignment is designed to test overall skills in JavaScript, particularly in manipulating the DOM (Document Object Model).
 
 ## Objectives
